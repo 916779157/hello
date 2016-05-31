@@ -7,11 +7,11 @@ Best Time to Buy and Sell Stock ¢ò
  */
 var maxProfit = function(prices) 
 {
- var min = 0;
-    for(var i = 1; i < prices.length; i++)
-{
-    if(prices[i] >prices[i-1])    
-    min += prices[i]-prices[i-1];
-        }
-return min;
+ var profit = 0;
+  for(var i = 1; i < prices.length; i++)
+  {
+  if(prices[i] >prices[i-1])    
+  profit += prices[i]-prices[i-1];
+  }
+  return profit;
 };
