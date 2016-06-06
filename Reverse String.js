@@ -16,6 +16,7 @@ var reverseString = function(s) {
 var reverseString = function(s) { 
   var stack = [];
   for(var len = s.length,i=len;i>=0;i-- ){
-       stack.push(s[i]);}
+    stack.push(s[i]);
+      }
   return stack.join('');
 };
