@@ -11,7 +11,6 @@ res = Math.log(n)/Math.log(3);
 */
 var isPowerOfThree = function(n) {
   if (n <= 0) return false;
-  if (n == 1 ) return true;
   res = Math.log(n)/Math.log(3); 
   var s = Math.ceil(res);
   var d = Math.floor(res);
